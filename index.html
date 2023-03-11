@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi Portfolio Frontend</title>
+            <link rel="shortcut icon" href="./assets/favicon.jpg" type="image">
+            <!-- styles -->
+            <link rel="stylesheet" href="./styles.css">
+            <!-- icons -->
+            <script src="https://kit.fontawesome.com/56aebad98f.js" crossorigin="anonymous"></script>
+            <!-- scroll del nav -->
+            <style class="nav"></style>
+        </head>
+
+        <body>
+            <!-- Sección barra de navegación -->
+            <header>
+                <div class="header_conteiner">                     
+                    <p class="name">ILB</p>
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav_item"><a href="#sobre_mi" class="nav_item_a">Sobre mí</a>
+                          </li>
+                            <li class="nav_item"><a href="#skills" class="nav_item_a">Skills</a>
+                            </li>
+                            <li class="nav_item"><a href="#estudios" class="nav_item_a">Educación</a>
+                            </li>
+                            <li class="nav_item"><a href="#proyectos" class="nav_item_a">Proyectos</a>
+                            </li>
+                            <li class="nav_item"><a href="#contacto" class="nav_item_a">Contacto</a>
+                            </li>
+                        </ul>                    
+                    </nav>
+                </div>
+            </header>
+            <main>
+
+                <!-- Sección inicio de nombre y foto-->
+                <section class="inicio">
+                    <div class="checkbox-mode">
+                        <input type="checkbox" id="mode" name="mode">
+                        <label for="mode">
+                            <i class="fa-solid fa-sun"></i>
+                            <i class="fa-solid fa-moon"></i>
+                        </label>
+                    </div>
+                    <div class="inicio__info">
+                        <h1 class="inicio__title"> Hola! Soy Ivanna López Barbona
+                            <i class="fa-solid fa-hand icon-header saludo"></i>
+                        </h1>
+                        <p class="inicio__description">
+                             Estudiante de Programación Full Stack Developer
+                        </p>
+                        <p class="inicio__description">Mis redes</p>
+                        <div class="inicio__redes">
+                            <a href="https://www.linkedin.com/in/ivanna-lopez-barbona/"target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a href="https://www.instagram.com/ivanna.lopezbarbona/"target="_blank"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+                            <a href="https://www.facebook.com/ivanna.lopezbarbona/"target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a class="inicio__redes_link" href="https://github.com/Ivanna49" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>  
+                            <a class="inicio__redes_link" href="./assets/cvbarbona.pdf" target="_blank"><span><i class="fa-solid fa-file-arrow-down fa-2x"></i></span><span>CV</span></a>
+                        </div>
+                    </div>
+                    <div class="inicio__img">
+                        <img src="./assets/IVI.jpg" class="inicio__img-imagen" alt="img_cara">
+                    </div>
+                </section>
+
+                <!-- Sección sobre mí -->
+                <section class="sobre_mi" id="sobre_mi">
+                    <div class="sobre_mi__conteiner">
+                        <h1 class="sobre_mi__title">Sobre mí</h1>
+                        <p class="sobre_mi__description">
+                            Soy estudiante autodidacta, comencé Sé Programar en febrero de 2022 en el plan de Argentina Programa. En junio de 2022 comencé la segunda  etapa de Yo Programo también en el plan de estudio de Argentina Programa.
+                            Luego, comencé a estudiar Big Data y Ciencia de Datos en el Programa Codo a Codo 4.0 del Ministerio de Educación de la Ciudad de Buenos Aires, con formación en bases de datos, MySQL, y Python entre otras tecnologías.
+                            Actualmente cursando el progrma de Oracle Latam Alura, next generation y también estoy comenzando una Tecnicatura en Desarrollo de software.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Sección de habilidades-->
+                <section class="skills" id="skills">
+                    <div class="skills_conteiner">
+                        <h1 class="skills__title">Skills</h1>
+                        <div class="skills__habilidades">
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-html5 icon_skills"></i>
+                                <p class="icon_description">HTML</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-css3-alt icon_skills"></i>
+                                <p class="icon_description">CSS</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-js icon_skills"></i>
+                                <p class="icon_description">JavaScript</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-java icon_skills"></i>
+                                <p class="icon_description">Java</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-python icon_skills"></i>
+                                <p class="icon_description">Python</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-angular icon_skills"></i>
+                                <p class="icon_description">Angular</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-figma icon_skills"></i>
+                                <p class="icon_description">Figma</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-bootstrap icon_skills"></i>
+                                <p class="icon_description">Bootstrap</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-square-git icon_skills"></i>
+                                <p class="icon_description">Git</p>
+                            </div>
+                            <div class="skills__habilidades_card">
+                                <i class="fa-brands fa-swift icon_skills"></i>
+                                <p class="icon_description">Swift</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección de formación -->
+                <section class="estudios" id="estudios">
+                    <h1 class="estudios__title">Educación</h1>
+                    <div class="estudios_conteiner">
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets/angular.png" class="estudio__formaciones_card-img" alt="">
+                            <p class="formaciones__card_title">PLATZI - Fundamentos de Angular</p>              
+                        </div>
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets/diseño.png" class="estudio__formaciones_card-img" alt="">
+                            <p class="formaciones__card_title">FUNDACIÓN TELEFÓNICA - Diseño Web con HTML y CSS</p>               
+                        </div>
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets/ingles.png" class="estudio__formaciones_card-img" alt="">
+                            <p class="formaciones__card_title">CUI - Argentina Programa- Inglés Técnico para Desarrolladores de Software</p>           
+                        </div>
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets//YOPROGRAMO.PNG" class="estudio__formaciones_card-img">
+                            <p class="formaciones__card_title">INTI -Argentina Programa - Web Full Stack Junior</p>                
+                        </div>
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets/UIUX.png" class="estudio__formaciones_card-img">
+                            <p class="formaciones__card_title">PLATZI - Diseño UI/UX</p>                
+                        </div>
+                        <div class="estudio__formaciones_card">
+                            <img src="./assets/javascript.png" class="estudio__formaciones_card-img">
+                            <p class="formaciones__card_title">FUNDACION TELEFÓNICA - Programación con Javascript</p>              
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Sección de proyectos -->
+                <section class="proyectos" id="proyectos">
+                    <h1 class="proyectos_title">Proyectos</h1>
+                    <div class="proyectos_conteiner">                        
+                        <figure class="proyectos__card">
+                            <h3 class="proyectos__card_title">Encriptador de Texto</h3>
+                            <img src="./assets/encriptador.PNG" alt="proyectos-muestra" class="proyectos__card_img">
+                            <div class="proyectos__card_btn">
+                                <a href="https://github.com/Ivanna49/Encriptador_de_texto"
+                                    class="proyectos__card_btn-btn-sec"
+                                    target="_blank">Código</a>
+                                <a href="https://ivanna49.github.io/Encriptador_de_texto/"
+                                    class="proyectos__card_btn-btn"
+                                    target="_blank">Ver Demo</a>
+                            </div>  
+                        </figure>
+                        <figure class="proyectos__card">
+                            <h3 class="proyectos__card_title">Barbería Alura</h3>
+                            <img src="./assets/Barberiaalura.PNG" alt="proyectos-muestra" class="proyectos__card_img">  
+                            <div class="proyectos__card_btn">
+                                <a href="https://github.com/Ivanna49/ORACLE-BarberiaAlura"
+                                    class="proyectos__card_btn-btn-sec"
+                                    target="_blank">Código</a>
+                                <a href="https://ivanna49.github.io/ORACLE-BarberiaAlura/"
+                                    class="proyectos__card_btn-btn"
+                                    target="_blank">Ver Demo</a>
+                            </div>  
+                        </figure>
+                        <figure class="proyectos__card">
+                            <h3 class="proyectos__card_title">Proyecto Argentina Programa</h3>
+                            <img src="./assets/Captura.PNG" alt="proyectos-muestra" class="proyectos__card_img">
+                            <div class="proyectos__card_btn">
+                                <a href="https://github.com/Ivanna49/FRONT2"
+                                    class="proyectos__card_btn-btn-sec"
+                                    target="_blank">Código</a>
+                                <a  href="https://frontendib.web.app/"
+                                    class="proyectos__card_btn-btn"
+                                    target="_blank">Ver Demo</a>
+                            </div>  
+                        </figure>
+                </section>
+
+                <!-- Sección de formulario de contacto -->
+                <section class="contacto" id="contacto">
+                    <div class="contacto_conteiner">
+                        <div class="icon_conteiner">
+                            <i class="fa-solid fa-message contacto_icon"></i>
+                        </div>                
+                        <div class="form_conteiner">
+                            <h1 class="contacto_title">Contacto</h1>
+                            <p class="contacto__description">Completá el formulario</p>
+                        
+                            <form action="#" class="form">
+                                <div class="input_conteiner">
+                                    <input 
+                                    type="text" 
+                                    name="name" 
+                                    id="name" 
+                                    required
+                                    placeholder="Nombre"
+                                    autocomplete="off"
+                                    oninvalid="setCustomValidity('NOMBRE no puede estar vacio')"
+                                    oninput="setCustomValidity('')">
+                                    <label for="name">Nombre</label>
+                                    <span class="input-message-error">Este campo no es valido</span>
+                                </div>
+                               
+                                <div class="input_conteiner">
+                                    <input 
+                                        type="email"
+                                        name="email" 
+                                        id="email" 
+                                        required
+                                        placeholder="Email"
+                                        autocomplete="off" 
+                                        oninvalid="setCustomValidity('Ingrese un email valido')"
+                                        oninput="setCustomValidity('')">
+                                    <label for="email">Email</label>
+                                    <span class="input-message-error">Éste campo no es válido</span>
+                                </div>
+                                
+                                <div class="input_conteiner">
+                                    <input 
+                                        type="text" 
+                                        name="asunto" 
+                                        id="asunto" 
+                                        required
+                                        placeholder="Asunto"
+                                        autocomplete="off"
+                                        oninvalid="setCustomValidity('ASUNTO no puede estar vacio')"
+                                        oninput="setCustomValidity('')">
+                                    <label for="asunto">Asunto</label>
+                                    <span class="input-message-error">Este campo no es valido</span>
+                                </div>
+                                
+
+                                <textarea 
+                                    name="asunto-text" 
+                                    rows="7"
+                                    placeholder="Mensaje"
+                                    required
+                                    maxlength="500">
+                                </textarea>
+                                
+                                <div class="btn_conteiner">
+                                    <button 
+                                        type="submit" 
+                                        class="btn_form">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+            <footer>
+                <div class="footer">
+                    <p class="footer__description">
+                        &copy;2023. Buenos Aires. Argentina.
+                        Hecho con<i class="fa-solid fa-heart footer__description-heart"></i>por Ivanna López Barbona
+                    </p>
+                </div>
+            </footer>
+
+            <script src="./index.js"></script>
+        </body>
+</html>
